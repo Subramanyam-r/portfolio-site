@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import LandingPage from "./components/LandingPage/LandingPage";
+import "./App.css";
+import config from "./config.json";
+import About from "./components/About/About";
+import ExperienceAndExperience from "./components/ExperienceAndExperience/ExperienceAndExperience";
+import "./components/Icons/Icons.css";
+import Skills from "./components/Skills/Skills";
+import AOS from "aos";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Footer from "./components/Footer/Footer";
 
 function App() {
+  AOS.init();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-main">
+      <img className="background-animated-svg-blocks" src="bg.svg" alt="animated-bg" />
+      <div className="site-main">
+        <LandingPage name={config.landing.name} roles={config.landing.roles} />
+        <About />
+        <ExperienceAndExperience />
+        <Skills />
+        <Portfolio />
+        <Footer />
+      </div>
     </div>
   );
 }

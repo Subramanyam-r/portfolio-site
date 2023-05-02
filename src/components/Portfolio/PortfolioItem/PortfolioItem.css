@@ -1,0 +1,30 @@
+.portfolio-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: left;
+  margin-bottom: 1rem;
+  border: 1px solid var(--secondary);
+}
+
+.portfolio-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.tech-stack-icons-div {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack-buttons-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.tech-stack-icon {
+  height: 2rem;
+  margin: 0 0.2rem;
+}

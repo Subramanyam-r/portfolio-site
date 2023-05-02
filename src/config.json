@@ -1,0 +1,206 @@
+{
+    "landing": {
+        "name": "Subramanyam",
+        "roles": [
+            "Full Stack Developer",
+            "Software Engineer",
+            "Web Developer",
+            "MERN Stack Developer"
+          ]
+    },
+
+    "about": {
+        "title": "Full Stack Web Developer",
+        "summary": "A Highly motivated individual with enormous interest in building websites and software systems that can potentially ease the tasks of people by automating them completely. I'm a fresher with almost 1 year of experience and a quick learner. I'm interested in learning new technologies based on the trend and keep myself updated for any challenge that comes forth.",
+        "details": [
+            { "prop": "Name", "value": "Subramanyam R" },
+            { "prop": "Birthday", "value": "23 Jul 2001" },
+            { "prop": "Degree", "value": "B.Tech" },
+            { "prop": "Experience", "value": "1 year" },
+            { "prop": "Location", "value": "Bangalore" }
+        ]
+    },
+
+    "education": [
+        {
+            "title": "B.Tech in Production Engineering",
+            "university": "NIT Trichy",
+            "timeline": "2018 - 2022",
+            "description": "A Graduate from one of the best engineering colleges rated under Top 10 in India with a Major in Production Engineering and a Minor in Computer Science and an overall CGPA of 8.56."
+        },
+        {
+            "title": "Class XII",
+            "university": "Velammal Matric Higher Secondary School",
+            "timeline": "2017 - 2018",
+            "description": "Completed my higher secondary schooling at Velammal main campus, Mogappair, Chennai. Studied Computer Science branch and secured a total of 89.3% in the board exams."
+        },
+        {
+            "title": "Class X",
+            "university": "Velammal Matric Higher Secondary School",
+            "timeline": "2015 - 2016",
+            "description": "Completed my high school at Velammal main campus, Mogappair, Chennai. Secured a total of 96% in the board exams. Went through IIT trainings alongside the usual syllabus."
+        }
+    ],
+
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "university": "Searce Inc.",
+            "timeline": "Jul 2022 - Present",
+            "description": "As a Software Engineer, my responsibilities were to create, manage, test, implement and provide support to software systems based on the client requirements."
+        },
+        {
+            "title": "Web Developer Intern",
+            "university": "AdoptEV Technologies",
+            "timeline": "Jun 2021 - Aug 2021",
+            "description": "Developed a booking site to enable customers to book intracity logistics services online. This system also comprises of an admin portal where orders are handled, and drivers are allotted."
+        },
+        {
+            "title": "President",
+            "university": "Film Society of NIT Trichy",
+            "timeline": "Apr 2021 - May 2022",
+            "description": "Served as the President of Film Society, The Videography/Filmography club of NIT Trichy. The position mainly involved managing the club, facilitating discussions for new short films and executing them."
+        }
+    ],
+
+    "skills": {
+        "frontend": [
+            {
+                "title": "HTML",
+                "imageLink": "skill_icons/html.png",
+                "value": 9.5,
+                "color": "#e34f26"
+            },
+            {
+                "title": "CSS",
+                "imageLink": "skill_icons/css.png",
+                "value": 9.5,
+                "color": "#0277bd"
+            },
+            {
+                "title": "Javascript",
+                "imageLink": "skill_icons/javascript.png",
+                "value": 9.5,
+                "color": "#efc725"
+            },
+            {
+                "title": "Bootstrap",
+                "imageLink": "skill_icons/bootstrap.png",
+                "value": 8,
+                "color": "#7952b3"
+            },
+            {
+                "title": "ReactJS",
+                "imageLink": "skill_icons/reactjs.png",
+                "value": 9,
+                "color": "#00ccff"
+            },
+            {
+                "title": "Flutter",
+                "imageLink": "skill_icons/flutter.png",
+                "value": 7,
+                "color": "#0d47a1"
+            }
+        ],
+        "backend": [
+            {
+                "title": "NodeJS",
+                "imageLink": "skill_icons/nodejs.png",
+                "value": 9,
+                "color": "#589c44"
+            },
+            {
+                "title": "ExpressJS",
+                "imageLink": "skill_icons/express.png",
+                "value": 8.5,
+                "color": "#828282"
+            },
+            {
+                "title": "Python",
+                "imageLink": "skill_icons/python.png",
+                "value": 8,
+                "color": "#3775a8"
+            },
+            {
+                "title": "Java",
+                "imageLink": "skill_icons/java.png",
+                "value": 8,
+                "color": "#f8582a"
+            },
+            {
+                "title": "Spring Boot",
+                "imageLink": "skill_icons/springboot.png",
+                "value": 7,
+                "color": "#6db240"
+            },
+            {
+                "title": "GoLang",
+                "imageLink": "skill_icons/golang.png",
+                "value": 8,
+                "color": "#00acd7"
+            }
+        ],
+        "databases": [
+            {
+                "title": "MongoDB",
+                "imageLink": "skill_icons/mongodb.png",
+                "value": 7,
+                "color": "#60b24f"
+            },
+            {
+                "title": "PostgreSQL",
+                "imageLink": "skill_icons/postgresql.png",
+                "value": 8,
+                "color": "#336993"
+            },
+            {
+                "title": "SQLite",
+                "imageLink": "skill_icons/sqlite.png",
+                "value": 6,
+                "color": "#646464"
+            }
+        ],
+        "other": [
+            {
+                "title": "Firebase",
+                "imageLink": "skill_icons/firebase.png",
+                "value": 8.5,
+                "color": "#ffca28"
+            },
+            {
+                "title": "GCP",
+                "imageLink": "skill_icons/gcp.png",
+                "value": 9,
+                "color": "#4285f4"
+            },
+            {
+                "title": "AWS",
+                "imageLink": "skill_icons/aws.png",
+                "value": 6.5,
+                "color": "#ff9900"
+            }
+        ]
+    },
+    "portfolio": [
+        {
+            "title": "Website for Film Society of NIT Trichy",
+            "portfolioImage": "portfolio_images/fsoc.png",
+            "techStack": ["reactjs", "firebase", "bootstrap"],
+            "sourceCodeLink": "https://github.com/Subramanyam-r/filmsocietynitt-website",
+            "deploymentLink": "https://filmsocietynitt.web.app"
+        },
+        {
+            "title": "Booking Website: AdoptEV Technologies",
+            "portfolioImage": "portfolio_images/adoptev-booking.png",
+            "techStack": ["reactjs", "nodejs", "express", "firebase", "bootstrap"],
+            "deploymentLink": "https://adoptev-intracity.web.app"
+        },
+        {
+            "title": "A Simple Banking Website",
+            "portfolioImage": "portfolio_images/paymate.png",
+            "techStack": ["html", "css", "nodejs", "express", "bootstrap", "mongodb"],
+            "sourceCodeLink": "https://github.com/Subramanyam-r/paymate",
+            "deploymentLink": "https://true-harmony-315121.uc.r.appspot.com/"
+        }
+    ]
+}

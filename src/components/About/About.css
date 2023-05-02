@@ -1,0 +1,16 @@
+.about-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 0.4rem;
+}
+
+.about-img-col {
+  text-align: right;
+}
+
+@media (max-width: 992px) {
+  .about-img-col {
+    text-align: center;
+  }
+}

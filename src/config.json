@@ -178,6 +178,12 @@
                 "imageLink": "skill_icons/aws.png",
                 "value": 6.5,
                 "color": "#ff9900"
+            },
+            {
+                "title": "Git",
+                "imageLink": "skill_icons/git.png",
+                "value": 8,
+                "color": "#80b3ff"
             }
         ]
     },

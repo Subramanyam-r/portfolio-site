@@ -1,0 +1,42 @@
+.navbar-main-div {
+  position: fixed;
+  top: 0;
+  background-color: var(--light) !important;
+  color: var(--dark) !important;
+  width: 100%;
+  padding: 1rem 4vw;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  z-index: 20;
+}
+
+.navlink-container {
+  display: flex;
+  justify-content: center;
+  margin: 0.6rem 0;
+}
+
+.navbar-icon {
+  color: var(--primary);
+  font-size: 1.9rem;
+  margin: 0 1rem 0 0;
+}
+
+.navbar-title {
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+
+.navbar-center-collapse {
+  color: var(--dark) !important;
+}
+
+.darkmode-switch {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.6rem 0;
+}
+
+.navbar-right-div {
+  display: flex;
+  justify-content: end;
+}

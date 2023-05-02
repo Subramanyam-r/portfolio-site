@@ -11,7 +11,7 @@
   text-transform: uppercase;
   font-weight: 900;
   font-size: calc(2.5rem + 8vw);
-  -webkit-text-stroke: 1px #dee2e6;
+  -webkit-text-stroke: 1px var(--text-stroke);
   -webkit-text-fill-color: transparent;
   z-index: 8;
 }

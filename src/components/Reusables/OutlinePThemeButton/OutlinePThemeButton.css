@@ -3,7 +3,7 @@
   padding: 0.6rem 1.5rem !important;
   border-color: var(--primary) !important;
   color: var(--primary) !important;
-  background-color: white !important;
+  background-color: var(--light) !important;
 }
 
 .outline-p-theme-button:hover,

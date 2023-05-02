@@ -6,7 +6,7 @@ import AboutMeDetails from "./AboutMeDetails/AboutMeDetails";
 export default function About() {
   return (
     <div>
-      <Section title="About Me" background="About">
+      <Section title="About Me" background="About" id="about">
         <Row className="gy-4">
           <Col lg={5}>
             <div className="about-img-col" data-aos="fade-right">

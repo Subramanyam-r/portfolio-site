@@ -1,0 +1,13 @@
+.navbar-navlink {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.1s color;
+  margin: 0 0.6rem;
+}
+
+.navbar-navlink:hover {
+  color: var(--primary);
+}

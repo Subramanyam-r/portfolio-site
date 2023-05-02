@@ -6,12 +6,13 @@ import config from "../../config.json";
 
 export default function ExperienceAndExperience() {
   return (
-    <Section title={"Education and Experience"} background={"Education"}>
+    <Section id="experience" title={"Education and Experience"} background={"Experience"}>
       <Row className="gy-4">
         <Col lg={6}>
           <h2 className="custom-dark-col-header">My Education</h2>
-          {config.education.map((ele) => (
+          {config.education.map((ele, i) => (
             <ExperienceDetail
+              key={i}
               title={ele.title}
               description={ele.description}
               timeline={ele.timeline}
@@ -22,8 +23,9 @@ export default function ExperienceAndExperience() {
 
         <Col lg={6}>
           <h2 className="custom-dark-col-header">My Experience</h2>
-          {config.experience.map((ele) => (
+          {config.experience.map((ele, i) => (
             <ExperienceDetail
+              key={i}
               title={ele.title}
               description={ele.description}
               timeline={ele.timeline}

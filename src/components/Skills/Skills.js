@@ -7,10 +7,10 @@ import config from "../../config.json";
 
 export default function Skills() {
   return (
-    <Section title="My Skills" background="Skills">
+    <Section id="skills" title="My Skills" background="Skills">
       <Row className="gy-4">
         {Object.keys(config.skills).map((k, i) => (
-          <Col md={6}>
+          <Col key={i} md={6}>
             <Row key={i} className="text-center gy-3">
               <h3 className="custom-dark-col-header mb-4 text-capitalize">{k}</h3>
 

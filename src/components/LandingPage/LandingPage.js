@@ -11,7 +11,7 @@ export default function LandingPage({ name, roles }) {
   roles.push(1000);
 
   return (
-    <div className="landing-main-div">
+    <div id="home" className="landing-main-div">
       <Row className="gy-5">
         <Col lg={5}>
           <div className="d-flex justify-content-center">

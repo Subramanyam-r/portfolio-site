@@ -2,7 +2,6 @@ import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import "./SkillBar.css";
 
 export default function SkillBar({ imageLink, value, color, title, keyForAnimationDelay }) {
-  console.log(keyForAnimationDelay);
   return (
     <div className="skillbar-main-div" data-aos="fade-up" data-aos-delay={(keyForAnimationDelay * 100 + 100).toString()}>
       <CircularProgressbarWithChildren
@@ -12,6 +11,9 @@ export default function SkillBar({ imageLink, value, color, title, keyForAnimati
           path: {
             stroke: color,
             pathTransitionDuration: 0.5,
+          },
+          trail: {
+            stroke: "var(--skill-bar-secondary)",
           },
         }}
       >

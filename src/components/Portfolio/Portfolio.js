@@ -6,12 +6,12 @@ import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
 export default function Portfolio() {
   return (
-    <Section title="My Portfolio" background="Gallery">
+    <Section id="portfolio" title="My Portfolio" background="Gallery">
       <Row className="gy-5">
         {config.portfolio.map((ele, i) => (
-          <Col lg={4}>
+          <Col key={i} lg={4}>
             <PortfolioItem
-              key={i}
+              keyforAnimationDelay={i}
               title={ele.title}
               techStack={ele.techStack}
               portfolioImage={ele.portfolioImage}

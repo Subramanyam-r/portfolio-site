@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "learning-a0d81"
+  },
+  "targets": {
+    "learning-a0d81": {
+      "hosting": {
+        "subramanyam": [
+          "subramanyam"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

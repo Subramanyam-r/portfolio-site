@@ -1,10 +1,9 @@
 .navbar-main-div {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   background-color: var(--light) !important;
   color: var(--dark) !important;
   width: 100%;
-  padding: 1rem 4vw;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   z-index: 20;
 }
@@ -17,13 +16,14 @@
 
 .navbar-icon {
   color: var(--primary);
-  font-size: 1.9rem;
+  font-size: calc(0.5vw + 1.4rem);
   margin: 0 1rem 0 0;
 }
 
 .navbar-title {
-  font-size: 1.9rem;
+  font-size: calc(0.5vw + 1.4rem);
   font-weight: 900;
+  color: var(--dark);
 }
 
 .navbar-center-collapse {
@@ -33,10 +33,33 @@
 .darkmode-switch {
   width: 2rem;
   height: 2rem;
-  margin: 0.6rem 0;
+  margin: 0.6rem 0.6rem;
+  transition: none !important;
+}
+
+.darkmode-switch circle {
+  transition: none !important;
 }
 
 .navbar-right-div {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+.navbar-hamburger {
+  margin-left: auto !important;
+}
+
+@media (min-width: 1200px) {
+  .navbar-links-div {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-main-div {
+    padding: 0.5rem 4vw !important;
+  }
 }

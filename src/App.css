@@ -30,6 +30,7 @@
 body {
   font-family: Roboto !important;
   background-color: var(--light) !important;
+  overflow-x: hidden;
 }
 
 .custom-dark-col-header {
@@ -37,4 +38,8 @@ body {
   margin-bottom: 1rem;
   font-size: 1.75rem;
   color: var(--dark);
+}
+
+* {
+  transition: 0.3s color, 0.3s background-color;
 }

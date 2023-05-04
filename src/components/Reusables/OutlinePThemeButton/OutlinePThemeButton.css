@@ -4,7 +4,6 @@
   border-color: var(--primary) !important;
   color: var(--primary) !important;
   background-color: transparent !important;
-  margin: 0 1rem;
 }
 
 .outline-p-theme-button:hover,

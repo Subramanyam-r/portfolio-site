@@ -21,7 +21,7 @@
 
 .tech-stack-buttons-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .tech-stack-icon {

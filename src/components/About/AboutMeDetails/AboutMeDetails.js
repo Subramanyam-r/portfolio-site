@@ -19,7 +19,7 @@ export default function AboutMeDetails() {
         ))}
       </Row>
 
-      <div>
+      <div className="aboutme-social-buttons-container">
         <SocialsButton title="LinkedIn" faBrandClassName="fa-linkedin" configLinkProp="linkedIn" />
         <SocialsButton title="GitHub" faBrandClassName="fa-github" configLinkProp="github" />
       </div>

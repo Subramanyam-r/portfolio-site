@@ -1,7 +1,9 @@
 .aboutme-detail-key {
   color: var(--dark);
+  font-size: 1rem !important;
 }
 
 .aboutme-detail-value {
   color: var(--secondary);
+  font-size: 1rem !important;
 }

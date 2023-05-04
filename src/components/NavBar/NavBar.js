@@ -8,7 +8,7 @@ export default function NavBar({ isDarkTheme, setIsDarkTheme }) {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
   return (
-    <nav className="navbar navbar-expand-xl navbar-main-div">
+    <nav className="navbar navbar-expand-xl navbar-main-div" style={{ display: "none" }}>
       <div className="container-fluid position-relative">
         <a className="navbar-brand" href="#home">
           <i className="fa-solid fa-code navbar-icon"></i>

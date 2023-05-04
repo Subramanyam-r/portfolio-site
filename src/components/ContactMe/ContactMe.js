@@ -2,8 +2,8 @@ import { Col, Row } from "react-bootstrap";
 import Section from "../Reusables/Section/Section";
 import "./ContactMe.css";
 import InputField from "./InputField/InputField";
-import OutlinePThemeButton from "../Reusables/OutlinePThemeButton/OutlinePThemeButton";
 import { useState } from "react";
+import EmailSendButton from "./EmailSendButton/EmailSendButton";
 
 let defaultContactDetails = {
   name: "",
@@ -12,8 +12,16 @@ let defaultContactDetails = {
   message: "",
 };
 
-export default function ContactMe() {
+let defaultContactDetailsValid = {
+  name: true,
+  email: true,
+  subject: true,
+  message: true,
+};
+
+export default function ContactMe({ setIsLoading }) {
   const [contactDetails, setContactDetails] = useState(defaultContactDetails);
+  const [isContactDetailsValid, setIsContactDetailsValid] = useState(defaultContactDetailsValid);
 
   function setField(field, value) {
     setContactDetails((old) => {
@@ -37,34 +45,53 @@ export default function ContactMe() {
     setField("message", e.target.value);
   }
 
-  function handleSubmit() {
-    console.log("Submitted");
-  }
-
   return (
     <Section id="contact" title="Get In Touch" background="Contact">
       <div className="contact-me-main-div">
         <Row className="gy-4 mb-4">
           <Col lg={6}>
-            <InputField field="name" value={contactDetails.name} onChange={setName} />
+            <InputField
+              field="name"
+              value={contactDetails.name}
+              onChange={setName}
+              isFieldValid={isContactDetailsValid.name}
+            />
           </Col>
 
           <Col lg={6}>
-            <InputField field="email" value={contactDetails.email} onChange={setEmail} />
+            <InputField
+              field="email"
+              value={contactDetails.email}
+              onChange={setEmail}
+              isFieldValid={isContactDetailsValid.email}
+            />
           </Col>
 
           <Col lg={12}>
-            <InputField field="subject" value={contactDetails.subject} onChange={setSubject} />
+            <InputField
+              field="subject"
+              value={contactDetails.subject}
+              onChange={setSubject}
+              isFieldValid={isContactDetailsValid.subject}
+            />
           </Col>
 
           <Col lg={12}>
-            <InputField field="message" textArea value={contactDetails.message} onChange={setMessage} />
+            <InputField
+              field="message"
+              textArea
+              value={contactDetails.message}
+              onChange={setMessage}
+              isFieldValid={isContactDetailsValid.message}
+            />
           </Col>
         </Row>
 
-        <OutlinePThemeButton size="lg" onClick={handleSubmit}>
-          Send Message
-        </OutlinePThemeButton>
+        <EmailSendButton
+          setIsLoading={setIsLoading}
+          contactDetails={contactDetails}
+          setIsContactDetailsValid={setIsContactDetailsValid}
+        />
       </div>
     </Section>
   );

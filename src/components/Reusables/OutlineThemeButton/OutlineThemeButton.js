@@ -1,9 +1,9 @@
 import { Button } from "react-bootstrap";
 import "./OutlineThemeButton.css";
 
-export default function OutlineThemeButton({ children, onClick }) {
+export default function OutlineThemeButton({ children, onClick, href }) {
   return (
-    <Button className="outline-theme-button" variant="outline-light" size="md" onClick={onClick}>
+    <Button href={href} className="outline-theme-button" variant="outline-light" size="md" onClick={onClick}>
       {children}
     </Button>
   );

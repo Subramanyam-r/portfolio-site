@@ -59,14 +59,6 @@ a {
   margin-left: 0;
 }
 
-.container {
-  width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-}
-
 /* CLEARFIX */
 
 .cf:before,

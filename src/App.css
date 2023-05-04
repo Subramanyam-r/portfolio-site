@@ -9,6 +9,7 @@
   --dark: #343a40;
   --text-stroke: #dee2e6;
   --skill-bar-secondary: var(--secondary);
+  --loading-screen-opacity: 0;
 }
 
 .background-animated-svg-blocks {

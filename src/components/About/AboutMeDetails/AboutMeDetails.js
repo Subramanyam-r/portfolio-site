@@ -2,7 +2,7 @@ import AboutMeDetail from "./AboutMeDetail/AboutMeDetail";
 import "./AboutMeDetails.css";
 import config from "../../../config.json";
 import { Col, Row } from "react-bootstrap";
-import OutlinePThemeButton from "../../Reusables/OutlinePThemeButton/OutlinePThemeButton";
+import SocialsButton from "./SocialsButton/SocialsButton";
 
 export default function AboutMeDetails() {
   return (
@@ -20,7 +20,8 @@ export default function AboutMeDetails() {
       </Row>
 
       <div>
-        <OutlinePThemeButton>Learn More</OutlinePThemeButton>
+        <SocialsButton title="LinkedIn" faBrandClassName="fa-linkedin" configLinkProp="linkedIn" />
+        <SocialsButton title="GitHub" faBrandClassName="fa-github" configLinkProp="github" />
       </div>
     </div>
   );

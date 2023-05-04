@@ -5,8 +5,8 @@
   background-color: var(--light) !important;
   color: var(--dark) !important;
   width: 100%;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   z-index: 20;
+  border-bottom: 3px solid var(--primary) !important;
 }
 
 .navlink-container {

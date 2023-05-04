@@ -9,6 +9,7 @@ export default function OutlinePThemeButton({ children, href, disabled, size, on
       className={"outline-p-theme-button " + className}
       disabled={disabled}
       onClick={onClick || undefined}
+      data-aos="fade-up"
     >
       {children}
     </Button>

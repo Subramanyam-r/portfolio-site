@@ -15,6 +15,7 @@ import $ from "jquery";
 import emailjs from "@emailjs/browser";
 import LoadingScreen from "./components/Reusables/LoadingScreen/LoadingScreen";
 import Alert from "./components/Reusables/Alert/Alert";
+import Certifications from "./components/Certifications/Certifications";
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
@@ -56,6 +57,7 @@ function App() {
         <ExperienceAndExperience />
         <Skills />
         <Portfolio />
+        <Certifications />
         <ContactMe setIsLoading={setIsLoading} />
         <Footer />
         <LoadingScreen />

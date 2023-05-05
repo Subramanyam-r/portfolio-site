@@ -14,7 +14,7 @@
 
 .background-animated-svg-blocks {
   position: fixed;
-  width: 100vw;
+  height: 100vh;
   z-index: 5;
   opacity: 0.3;
 }

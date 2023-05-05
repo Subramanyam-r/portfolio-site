@@ -64,3 +64,7 @@
     padding: 0.5rem 4vw !important;
   }
 }
+
+.navbar-navlink {
+  text-transform: capitalize;
+}

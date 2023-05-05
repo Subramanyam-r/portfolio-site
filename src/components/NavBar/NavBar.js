@@ -7,6 +7,8 @@ import { useState } from "react";
 export default function NavBar({ isDarkTheme, setIsDarkTheme }) {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
+  let navLinks = ["home", "about", "experience", "skills", "portfolio", "certifications", "contact"];
+
   return (
     <nav className="navbar navbar-expand-xl navbar-main-div" style={{ display: "none" }}>
       <div className="container-fluid position-relative">
@@ -20,12 +22,9 @@ export default function NavBar({ isDarkTheme, setIsDarkTheme }) {
 
         <div className="collapse navbar-collapse navbar-links-div" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-            <NavLink title="Home" href="#home" />
-            <NavLink title="About" href="#about" />
-            <NavLink title="Experience" href="#experience" />
-            <NavLink title="Skills" href="#skills" />
-            <NavLink title="Portfolio" href="#portfolio" />
-            <NavLink title="Contact" href="#contact" />
+            {navLinks.map((ele, i) => (
+              <NavLink key={i} title={ele} href={"#" + ele} setIsCollapsed={setIsCollapsed} />
+            ))}
           </ul>
         </div>
       </div>

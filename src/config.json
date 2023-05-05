@@ -213,5 +213,31 @@
     "publicKey": "vCQv1NuOBmq5FhL-W",
     "templateID": "template_l3a539w",
     "serviceID": "service_ercknln"
-  }
+  },
+  "certifications": [
+    {
+      "title": "Professional Cloud Developer",
+      "provider": "Google Cloud",
+      "provider_logo": "google.png",
+      "issued": "Feb 2023",
+      "expires": "Feb 2025",
+      "credential_link": "https://www.credential.net/d58f7cd6-7007-496a-8943-a977ede7a3bb"
+    },
+    {
+      "title": "Associate Cloud Engineer",
+      "provider": "Google Cloud",
+      "provider_logo": "google.png",
+      "issued": "Aug 2022",
+      "expires": "Aug 2025",
+      "credential_link": "https://www.credential.net/64104865-52ac-402f-a161-5824a40b695e"
+    },
+    {
+      "title": "The Complete Web Development Bootcamp",
+      "provider": "Udemy",
+      "provider_logo": "udemy.png",
+      "issued": "Apr 2021",
+      "expires": "Never",
+      "credential_link": "https://www.udemy.com/certificate/UC-a4ac91e7-805b-4cff-9cf1-3157a05692e9/"
+    }
+  ]
 }

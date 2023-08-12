@@ -201,7 +201,7 @@
       "portfolioImage": "portfolio_images/paymate.png",
       "techStack": ["html", "css", "nodejs", "express", "bootstrap", "mongodb"],
       "sourceCodeLink": "https://github.com/Subramanyam-r/paymate",
-      "deploymentLink": "https://true-harmony-315121.uc.r.appspot.com/"
+      "deploymentLink": "https://paymate.subramanyam.me/"
     }
   ],
   "socials": {

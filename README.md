@@ -1,3 +1,3 @@
 Portfolio Website
 
-Hosted on Firebase: https://subramanyam.me
+Hosted on Firebase: https://subramanyam.dev

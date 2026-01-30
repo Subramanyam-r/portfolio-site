@@ -11,7 +11,7 @@
       { "prop": "Name", "value": "Subramanyam R" },
       { "prop": "Birthday", "value": "23 Jul 2001" },
       { "prop": "Degree", "value": "B.Tech" },
-      { "prop": "Experience", "value": "1 year" },
+      { "prop": "Experience", "value": "3.5 year" },
       { "prop": "Location", "value": "Bangalore" }
     ]
   },
@@ -39,9 +39,15 @@
 
   "experience": [
     {
+      "title": "Senior Software Engineer",
+      "university": "Searce Inc.",
+      "timeline": "Oct 2025 - Present",
+      "description": "As a Senior Software Engineer, my responsibilities were to design and implement scalable solutions catering the business needs."
+    },
+    {
       "title": "Software Engineer",
       "university": "Searce Inc.",
-      "timeline": "Jul 2022 - Present",
+      "timeline": "Jul 2022 - Oct 2025",
       "description": "As a Software Engineer, my responsibilities were to create, manage, test, implement and provide support to software systems based on the client requirements."
     },
     {
@@ -119,7 +125,7 @@
       {
         "title": "Java",
         "imageLink": "skill_icons/java.png",
-        "value": 8,
+        "value": 9,
         "color": "#f8582a"
       },
       {
@@ -220,7 +226,7 @@
       "provider": "Google Cloud",
       "provider_logo": "google.png",
       "issued": "Feb 2023",
-      "expires": "Feb 2025",
+      "expires": "Feb 2027",
       "credential_link": "https://www.credential.net/d58f7cd6-7007-496a-8943-a977ede7a3bb"
     },
     {
@@ -230,14 +236,6 @@
       "issued": "Feb 2024",
       "expires": "Feb 2026",
       "credential_link": "https://www.credential.net/ec81c559-ac4e-4e93-aa94-22aa25da06e5"
-    },
-    {
-      "title": "Associate Cloud Engineer",
-      "provider": "Google Cloud",
-      "provider_logo": "google.png",
-      "issued": "Aug 2022",
-      "expires": "Aug 2025",
-      "credential_link": "https://www.credential.net/64104865-52ac-402f-a161-5824a40b695e"
     },
     {
       "title": "The Complete Web Development Bootcamp",
